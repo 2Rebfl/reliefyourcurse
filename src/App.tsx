@@ -65,7 +65,11 @@ function App() {
   
   useEffect(() => {
     // Initialize Farcaster SDK
-    sdk.actions.ready({ disableNativeGestures: true });
+    const initializeSdk = async () => {
+      await sdk.actions.ready({ disableNativeGestures: true });
+    };
+    
+    initializeSdk();
     
     // Parse URL parameters
     parseUrlParams();
