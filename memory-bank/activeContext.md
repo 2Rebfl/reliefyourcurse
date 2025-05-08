@@ -98,7 +98,7 @@ The app has been successfully deployed to production:
 
 1. **Production Environment**:
    - Deployed to Vercel with HTTPS support
-   - Production URL: https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app
+   - Production URL: https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app
    - Created vercel.json configuration file to make the deployment public
    - Build optimized for production delivery
 

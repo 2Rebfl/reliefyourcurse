@@ -9,7 +9,8 @@
 
 2. **Deployed to Vercel**
    - Successfully deployed the application to Vercel
-   - Current production URL: https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app
+   - Current production URL: https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app
+   - All URLs updated to use the production domain
 
 3. **Set Up Version Control**
    - Initialized a Git repository

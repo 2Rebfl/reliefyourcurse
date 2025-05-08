@@ -20,8 +20,8 @@ To make your Vercel project publicly accessible (required for Farcaster Frames),
 After changing the settings:
 
 1. Try accessing the project URL without being logged in:
-   - Main app: [https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app](https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app)
-   - Frame URL: [https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/frame.html](https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/frame.html)
+   - Main app: [https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app](https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app)
+   - Frame URL: [https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app/frame.html](https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app/frame.html)
 
 2. If you can access these URLs without being prompted to log in, the visibility change was successful
 
