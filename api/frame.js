@@ -23,15 +23,15 @@ export default async function handler(req, res) {
     if (buttonIndex === 1) {
       // Button 1: Record Audio & Create Token
       action = 'record';
-      redirectUrl = `https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
+      redirectUrl = `https://reliefyourcurse-e4eoqixux-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
     } else if (buttonIndex === 2) {
       // Button 2: View My Tokens
       action = 'view';
-      redirectUrl = `https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
+      redirectUrl = `https://reliefyourcurse-e4eoqixux-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
     } else {
       // Default action
       action = 'record';
-      redirectUrl = `https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
+      redirectUrl = `https://reliefyourcurse-e4eoqixux-fluodolab3s-projects.vercel.app/?fid=${fid}&action=${action}`;
     }
     
     // Return the frame response
@@ -46,7 +46,7 @@ export default async function handler(req, res) {
           
           <!-- Farcaster Frame Metadata -->
           <meta property="fc:frame" content="vNext">
-          <meta property="fc:frame:image" content="https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app/audio-token-minter.png">
+          <meta property="fc:frame:image" content="https://reliefyourcurse-e4eoqixux-fluodolab3s-projects.vercel.app/audio-token-minter.png">
           <meta property="fc:frame:button:1" content="Open App">
           <meta property="fc:frame:button:1:action" content="link">
           <meta property="fc:frame:button:1:target" content="${redirectUrl}">
