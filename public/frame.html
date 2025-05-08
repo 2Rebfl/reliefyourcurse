@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Token Minter</title>
+  
+  <!-- Farcaster Frame Metadata -->
+  <meta property="fc:frame" content="vNext">
+  <meta property="fc:frame:image" content="https://reliefyourcurse-2jta4n4ct-fluodolab3s-projects.vercel.app/audio-token-minter.png">
+  <meta property="fc:frame:button:1" content="Record Audio & Create Token">
+  <meta property="fc:frame:button:1:action" content="post_redirect">
+  <meta property="fc:frame:button:2" content="View My Tokens">
+  <meta property="fc:frame:button:2:action" content="post_redirect">
+  <meta property="fc:frame:post_url" content="https://reliefyourcurse-2jta4n4ct-fluodolab3s-projects.vercel.app/api/frame">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #1a1a1a;
+      color: white;
+    }
+    
+    .container {
+      text-align: center;
+      max-width: 600px;
+      padding: 20px;
+    }
+    
+    h1 {
+      margin-bottom: 10px;
+    }
+    
+    p {
+      margin-bottom: 20px;
+      opacity: 0.8;
+    }
+    
+    .button {
+      background-color: #6c5ce7;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    
+    .button:hover {
+      background-color: #5649c0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Audio Token Minter</h1>
+    <p>Record a 5-second audio clip and create an ERC-20 token using Clanker</p>
+    <a href="https://reliefyourcurse-2jta4n4ct-fluodolab3s-projects.vercel.app/" class="button">Launch App</a>
+  </div>
+</body>
+</html>

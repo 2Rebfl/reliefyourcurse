@@ -1,0 +1,9 @@
+{
+  "public": true,
+  "outputDirectory": "dist",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/api/frame", "dest": "/api/frame.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

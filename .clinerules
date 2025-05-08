@@ -1,0 +1,108 @@
+# Audio Token Minter - Project Intelligence
+
+## Project Patterns
+
+### Component Structure
+- Each component is in its own file in the `src/components` directory
+- Components follow a functional approach using React hooks
+- Components are exported as default exports
+
+### State Management
+- Local component state is managed using React's `useState` hook
+- Props are used to pass data between components
+- Callbacks are used for child-to-parent communication
+
+### Styling
+- CSS is organized in the `index.css` file
+- Component-specific styles use class names that match the component name
+- CSS variables are used for colors and other theme values
+
+### Error Handling
+- Try-catch blocks are used for error handling
+- Errors are logged to the console
+- User-friendly error messages are displayed in the UI
+
+### Testing
+- Development mode is used for testing without a real wallet
+- Simulated functionality is used for features that require external services
+
+## Code Conventions
+
+### Naming
+- Component files use PascalCase (e.g., `AudioRecorder.tsx`)
+- Component functions use PascalCase (e.g., `function AudioRecorder()`)
+- Variables and functions use camelCase (e.g., `handleRecordingComplete`)
+- CSS classes use kebab-case (e.g., `audio-recorder`)
+
+### TypeScript
+- TypeScript is used throughout the project
+- Props are defined using interfaces
+- Function parameters and return types are explicitly typed
+
+### React Patterns
+- Functional components are used instead of class components
+- React hooks are used for state and side effects
+- Components are kept small and focused on a single responsibility
+
+## Development Workflow
+
+### Local Development
+- Run `npm run dev` to start the development server
+- Access the app at `http://localhost:5173`
+- Use the "Simulate Connected" button to test without a real wallet
+
+### Building for Production
+- Run `npm run build` to create a production build
+- The build output is in the `dist` directory
+- Deploy the contents of the `dist` directory to a hosting provider
+
+## Project Structure
+
+### Key Files and Directories
+- `src/components/AudioRecorder.tsx`: Audio recording functionality
+- `src/components/AudioTokenMinter.tsx`: Token minting functionality
+- `src/App.tsx`: Main application component
+- `src/index.css`: Styles for the application
+- `src/wagmi.ts`: Wagmi configuration for wallet connections
+
+### Memory Bank
+- `memory-bank/projectbrief.md`: Project overview and requirements
+- `memory-bank/techContext.md`: Technical details and implementation
+- `memory-bank/systemPatterns.md`: Architecture and design patterns
+- `memory-bank/productContext.md`: User experience and product goals
+- `memory-bank/progress.md`: Current status and next steps
+- `memory-bank/activeContext.md`: Current focus and recent changes
+
+## Known Issues and Workarounds
+
+### Audio Recording in Browser
+- Audio recording requires user permission
+- Some browsers may not support the MediaRecorder API
+- Testing in a secure context (HTTPS or localhost) is required
+
+### Wallet Connection
+- Wallet connection requires a compatible wallet provider
+- In development mode, use the "Simulate Connected" button for testing
+- The Farcaster Frame SDK requires a Farcaster client to work properly
+
+### Token Minting
+- Token minting is currently simulated
+- A real NFT contract address is required for actual minting
+- Gas fees will be required for actual minting
+
+## Future Development Guidelines
+
+### Adding New Features
+- Keep components small and focused
+- Follow the existing patterns for state management and error handling
+- Update documentation when adding new features
+
+### Integrating External Services
+- Use environment variables for API keys and other sensitive information
+- Add proper error handling for API calls
+- Consider fallback options for when services are unavailable
+
+### Deployment
+- Build the app using `npm run build`
+- Deploy the contents of the `dist` directory
+- Register the app with Farcaster for production use
