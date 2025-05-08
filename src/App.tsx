@@ -65,7 +65,7 @@ function App() {
   
   useEffect(() => {
     // Initialize Farcaster SDK
-    sdk.actions.ready();
+    sdk.actions.ready({ disableNativeGestures: true });
     
     // Parse URL parameters
     parseUrlParams();

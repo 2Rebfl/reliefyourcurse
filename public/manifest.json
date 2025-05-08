@@ -1,0 +1,20 @@
+{
+  "name": "Audio Token Minter",
+  "description": "Record a 5-second audio clip and create an ERC-20 token using Clanker",
+  "icons": [
+    {
+      "src": "/audio-token-minter.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/audio-token-minter.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#6c5ce7",
+  "background_color": "#1a1a1a"
+}
