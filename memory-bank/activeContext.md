@@ -98,8 +98,8 @@ The app has been successfully deployed to production:
 
 1. **Production Environment**:
    - Deployed to Vercel with HTTPS support
-   - Production URL: https://reliefyourcurse-e10v9v382-fluodolab3s-projects.vercel.app
-   - All URLs updated to use the production domain
+   - Production URL: https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app
+   - Created vercel.json configuration file to make the deployment public
    - Build optimized for production delivery
 
 2. **Deployment Process**:
@@ -123,7 +123,21 @@ The app has been successfully deployed to production:
    - Netlify Functions version of the frame.js API handler ready
    - CORS headers added for cross-origin requests
 
-6. **Next Steps**:
+6. **Version Control and Collaboration**:
+   - Initialized Git repository for the project
+   - Created a feature branch `deploy-farcaster-frame` for deployment changes
+   - Pushed to GitHub repository at https://github.com/2Rebfl/reliefyourcurse
+   - Created documentation for pull request creation and merging
+
+7. **Documentation**:
+   - Created VERCEL_INSTRUCTIONS.md with steps to make the deployment public
+   - Created GITHUB_PR_INSTRUCTIONS.md with pull request creation steps
+   - Created DEPLOYMENT_SUMMARY.md with an overview of the deployment process
+   - Updated memory bank files to reflect current status
+
+8. **Next Steps**:
+   - Complete GitHub pull request process
+   - Make Vercel deployment publicly accessible
    - Verify frame functionality using Farcaster Frame Validator
    - Test all user flows in the production environment
    - Monitor for any issues or bugs in the production deployment
