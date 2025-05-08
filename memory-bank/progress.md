@@ -63,10 +63,12 @@ The following features and improvements are planned for future development:
 
 ✅ **Actual Deployment**
   - Deployed to Vercel with HTTPS support
-  - Production URL: https://reliefyourcurse-fluodolab3-fluodolab3s-projects.vercel.app
+  - Production URL: https://reliefyourcurse-n21n8ja3b-fluodolab3s-projects.vercel.app
   - Created vercel.json configuration file to make the deployment public
   - Fixed the update-urls.js script to work with ES modules
   - Redeployed with updated URLs
+  - Updated Farcaster SDK integration with async/await pattern
+  - Added manifest.json link to frame.html for better PWA support
 
 ✅ **Version Control and Collaboration**
   - Initialized Git repository for the project

@@ -6,10 +6,12 @@
    - Created a Vercel configuration file (`vercel.json`) with public access settings
    - Ensured the frame.html has proper Farcaster Frame metadata
    - Set up API endpoints for frame interactions
+   - Added manifest.json link to frame.html for better PWA support
+   - Updated Farcaster SDK integration with async/await pattern
 
 2. **Deployed to Vercel**
    - Successfully deployed the application to Vercel
-   - Current production URL: https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app
+   - Current production URL: https://reliefyourcurse-n21n8ja3b-fluodolab3s-projects.vercel.app
    - All URLs updated to use the production domain
 
 3. **Set Up Version Control**

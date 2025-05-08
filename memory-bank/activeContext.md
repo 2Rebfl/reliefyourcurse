@@ -98,7 +98,7 @@ The app has been successfully deployed to production:
 
 1. **Production Environment**:
    - Deployed to Vercel with HTTPS support
-   - Production URL: https://reliefyourcurse-7z5rn7m7p-fluodolab3s-projects.vercel.app
+   - Production URL: https://reliefyourcurse-n21n8ja3b-fluodolab3s-projects.vercel.app
    - Created vercel.json configuration file to make the deployment public
    - Build optimized for production delivery
 
@@ -107,6 +107,8 @@ The app has been successfully deployed to production:
    - Updated all URLs using the `update-urls.js` script
    - Fixed the update-urls.js script to work with ES modules
    - Deployed to Vercel using `npm run deploy:vercel:prod`
+   - Added manifest.json link to frame.html for better PWA support
+   - Updated Farcaster SDK integration with async/await pattern
 
 3. **URL Configuration**:
    - All URLs in frame.html and frame.js updated to use the production domain
